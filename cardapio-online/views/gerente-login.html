@@ -24,20 +24,40 @@
 		{
 			background-color:#f4f4f4;
 		}
+		section{
+			margin-top:100px;
+		}
 		.card
 		{
-			margin:350px;
-			margin-left:450px;
+			margin:0 auto;
 			width:40%;
 			
 		}
 		.card-body{
 			background-color:#f4f4f4;
+			padding:40px;
+		}
+
+		.btn-cardapio{
+			color:#f1f1f1;
+			background-color:#76BF57;
+			text-align:center;
+			display:block;
+				margin:0 auto;
+			
+		}
+		input[type=email],input[type=password]{
+			color:#76BF57;	
+		}
+		.title-login
+		{
+			text-align:center; 
+			margin-bottom:20px;
 		}
 	</style>
 	
     <title>
-		<!-- literalmente o título da página  -->
+		Login usuário
     </title>
 </head>
 <body>
@@ -45,19 +65,18 @@
 		<div class="card">
 			  <div class="card-body"> 
 				<form action="">
-					<h1> LOGIN </h1>
-					<div>
-						<label>E-mail</label>
-						<div><input class="form-control" type="email"></div>
+					<h1 class="title-login">Login</h1>
+					<div>	
+						<div><input class="form-control" placeholder="e-mail" type="email"></div>
 					</div>
+					<br>
 					<div>
-						<label> Senha </label>
-						<div><input class="form-control" type="password"></div>
+						<div><input class="form-control" placeholder="senha"type="password"></div>
 					</div>
 					<br>
 					<div>
 						<div>
-							<button type="button" class="btn">Entrar</button>
+							<button type="button" class="btn btn-cardapio">Concluir</button>
 						</div>
 						
 					</div>
